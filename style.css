@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", "Quicksand", "Arial", sans-serif;
+  line-height: 32px;
+  color: #ffffff;
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  min-height: 100%;
+  height: auto;
+  display: flex;
+}
+div {
+  background-color: #000000;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.8);
+  opacity: 1;
+  color: #fff;
+  z-index: 10;
+  position: relative;
+  font-size: 16px;
+  word-spacing: 1px;
+  line-height: 1.5;
+  width: 320px;
+  
+}
+.block_avatar {
+  text-align: center;
+  box-sizing: border-box;
+}
+.block_name {
+  background-color: #2e2e2e;
+  margin-bottom: 0;
+  margin: 0;
+}
+p {
+  font-size: 12px;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+p.naming {
+  font-size: 22px;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+ul {
+  background-color: rgb(255, 255, 255);
+  background: #fff;
+  padding: 0px;
+  margin: 0;
+}
+li {
+  list-style: none;
+  border-bottom: 1px solid #e1e1e4;
+  height: 70px;
+  box-sizing: border-box;
+  margin: 0;
+  display: block;
+  vertical-align: middle;
+  height: 70px;
+  padding: 20px;
+}
+.logo {
+  height: 32px;
+  float: left;
+}
+button {
+  float: right;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0 solid #e2e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+  border: 1.2px solid rgba(179, 181, 187, 0.4);
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #414754;
+  height: 32px;
+  max-width: 100px;
+  min-width: 100px;
+  background-color: #fff;
+  cursor: pointer;
+}
+a {
+  color: inherit;
+}
